@@ -1,6 +1,7 @@
 package learnEncapsulation;
 // the difference between private attributes and public attributes
 // getters and setters only want to private attributes
+// ***** class attributes can bade as read only or write only *****
 public class Main {
 	public static void main(String[] args) {
 		// create an object for a person
