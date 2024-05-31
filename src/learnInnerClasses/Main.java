@@ -14,7 +14,7 @@ public class Main {
 //		System.out.println(myOuter.x);
 		
 		//  ***** to create objects of the inner class we must go through the outer class ***** 
-		OuterClass.InnerClass myInner = new OuterClass().new InnerClass();
+		OuterClass.InnerClass myInner = new OuterClass().new InnerClass(); // we have to create object of outer class, if inner class was static we no need to create an object of outer class
 		System.out.println(myInner.y);
 	}
 }
