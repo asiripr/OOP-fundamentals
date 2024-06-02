@@ -1,8 +1,9 @@
 package learnAbstraction;
 
 interface Vehical{
-	public  void vehicalSound();
-	public  void speed();
+	// methods with empty bodies
+	public void vehicalSound();
+	public void speed();
 }
 
 class Car implements Vehical{
